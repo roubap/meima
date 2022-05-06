@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>黑马页面</title>
+    <link rel="stylesheet" href="../heima/css/normalize.css">
+    <link rel="stylesheet" href="../heima/css/swiper.min.css">
+    <link rel="stylesheet" href="../heima/css/index.css">
+</head>
+
+<body>
+    <!-- 头部区域header  -->
+    <header class="header">黑马程序</header>
+    <!-- 导航区域开始  -->
+    <nav class="nav">
+        <a href="#" class="item">
+            <div><img src="../heima/icons/icon1.png" alt=""></div>
+            <span>HR面试</span>
+        </a>
+        <a href="#" class="item">
+            <div><img src="../heima/icons/icon2.png" alt=""></div>
+            <span>HR面试</span>
+        </a>
+        <a href="#" class="item">
+            <div><img src="../heima/icons/icon3.png" alt=""></div>
+            <span>HR面试</span>
+        </a>
+        <a href="#" class="item">
+            <div><img src="../heima/icons/icon4.png" alt=""></div>
+            <span>HR面试</span>
+        </a>
+        <a href="#" class="item">
+            <div><img src="../heima/icons/icon5.png" alt=""></div>
+            <span>HR面试</span>
+        </a>
+        <a href="#" class="item">
+            <div><img src="../heima/icons/icon6.png" alt=""></div>
+            <span>HR面试</span>
+        </a>
+    </nav>
+    <!-- banner模块开始啦   -->
+    <div class="banner">
+    </div>
+    <!-- 横条 -->
+    <div class="line"></div>
+    <!-- 主题内容  -->
+    <div class="contend">
+        <div class="con-hd">
+            <div class="logo"></div>
+            <span>就业指导</span>
+            <a href="#" class="more">更多&gt;&gt;</a>
+        </div>
+        <div class="con-bd">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="#"><img src="../heima/images/pic.png" alt=""></a>
+                        <p>老师教你应对面试技巧</p>
+                    </div>
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="#"><img src="../heima/images/pic.png" alt=""></a>
+                            <p>老师教你应对面试技巧</p>
+                        </div>
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="#"><img src="../heima/images/pic.png" alt=""></a>
+                                <p>老师教你应对面试技巧</p>
+                         </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+
+    </div>
+    <!-- 横条 -->
+    <div class="line"></div>
+    <!-- 分模块内容刚开始啦 -->
+    <div class="contends">
+        <div class="con-hds">
+            <div class="logos"></div>
+            <span>充电学习</span>
+            <a href="#" class="mores">更多&gt;&gt;</a>
+        </div>
+        <div class="con-bds">
+            <ul>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+            </ul>
+        </div>
+        <!-- 导航栏制作 -->
+        <div class="naved">
+            <a href="#">
+                <div class="aa"></div>
+                <span>首页</span>
+            </a>
+            <a href="#">
+                <div class="aa"></div>
+                <span>首页</span>
+            </a>
+            <a href="#">
+                <div class="aa"></div>
+                <span>首页</span>
+            </a>
+            <a href="#">
+                <div class="aa"></div>
+                <span>首页</span>
+            </a>
+
+        </div>
+
+
+        <script src="../heima/js/flexible.js"></script>
+        <script src="../heima/js/swiper.min.js"> </script>
+        <script>
+            (function () {
+                var swiper = new Swiper('.swiper-container', {
+                    slidesPerView: 3,
+                    spaceBetween: 30,
+                    centeredSlides: true,
+                    loop: true,
+                    navigation: {
+                        nextEl: ".swiper-button-next",
+                        prevEl: ".swiper-button-prev",
+                    },
+                });
+            })()
+
+        </script>
+</body>
+
+</html>
